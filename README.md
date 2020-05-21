@@ -111,6 +111,7 @@ open up a terminal, and execute the following command:
 python detect_mask_video.py
 ```
 
+<img src="read_me_images/photo.gif">
 
 
 Here, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well).
