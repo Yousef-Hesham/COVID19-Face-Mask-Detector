@@ -110,9 +110,11 @@ open up a terminal, and execute the following command:
 ```python
 python detect_mask_video.py
 ```
+Here's a Preview of the output:
 
 <img src="read_me_images/photo.gif">
 
+You can check the full video on [Youtube here](https://www.youtube.com/watch?v=H426T0bbY1o).
 
 Here, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well).
 
@@ -120,9 +122,8 @@ Here, you can see that our face mask detector is capable of running in real-time
 
 As you can see from the results sections above, our face mask detector is working quite well despite:
     
-    Having limited training data
-    The (with_mask) class being artificially generated.
-
+1. Having limited training data
+2. The (with_mask) class being artificially generated.
 
 To improve our face mask detection model further, you should gather actual images (rather than artificially generated images) of people wearing masks.
 While our artificial dataset worked well in this case, there’s no substitute for the real thing.
